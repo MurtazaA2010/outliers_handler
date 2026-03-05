@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AnLOF"
+version = "1.0.1"
+description = "Automatic Outliers Handler Library"
+authors = [
+    { name="Murtaza Abdullah" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "xgboost",
+    "catboost",
+    "lightgbm"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MurtazaA2010/AnML"
